@@ -9,6 +9,13 @@ import UIKit
 class ContactsViewController: UITableViewController {
     
     var persons: [Person] = []
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
+    
+    }
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

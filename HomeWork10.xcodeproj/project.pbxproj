@@ -66,14 +66,11 @@
 		7F43D183288824120082E362 /* HomeWork10 */ = {
 			isa = PBXGroup;
 			children = (
-				7F43D184288824120082E362 /* AppDelegate.swift */,
-				7F43D186288824120082E362 /* SceneDelegate.swift */,
 				7F43D19D288869EC0082E362 /* ViewControllers */,
 				7F43D19A2888656A0082E362 /* Model */,
-				7F43D18A288824120082E362 /* Main.storyboard */,
-				7F43D18D2888241E0082E362 /* Assets.xcassets */,
-				7F43D18F2888241E0082E362 /* LaunchScreen.storyboard */,
+				7F43D1A42888AF4B0082E362 /* Storyboard */,
 				7F43D1922888241E0082E362 /* Info.plist */,
+				7F43D1A52888B25F0082E362 /* Config */,
 			);
 			path = HomeWork10;
 			sourceTree = "<group>";
@@ -96,6 +93,25 @@
 				7F43D1A228889D8E0082E362 /* ShortInfoViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7F43D1A42888AF4B0082E362 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7F43D18A288824120082E362 /* Main.storyboard */,
+				7F43D18F2888241E0082E362 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7F43D1A52888B25F0082E362 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				7F43D184288824120082E362 /* AppDelegate.swift */,
+				7F43D186288824120082E362 /* SceneDelegate.swift */,
+				7F43D18D2888241E0082E362 /* Assets.xcassets */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

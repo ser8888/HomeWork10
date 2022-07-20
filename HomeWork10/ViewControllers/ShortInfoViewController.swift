@@ -17,6 +17,7 @@ class ShortInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        navigationItem.largeTitleDisplayMode = .never
         title = person.fullName
         telLabel.text = "Phone: \(person.telNumber)"
         emailLabel.text = "Email: \(person.email)"

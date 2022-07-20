@@ -50,12 +50,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xu-Q4-fSA">
-                                <rect key="frame" x="51" y="144" width="48" height="21"/>
+                                <rect key="frame" x="51" y="144" width="347" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSY-Aw-Df9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSY-Aw-Df9">
                                 <rect key="frame" x="51" y="195" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -65,7 +65,10 @@
                         <viewLayoutGuide key="safeArea" id="UNZ-97-ocM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="UNZ-97-ocM" firstAttribute="trailing" secondItem="3Xu-Q4-fSA" secondAttribute="trailing" constant="16" id="Agh-YW-0b6"/>
                             <constraint firstItem="uSY-Aw-Df9" firstAttribute="top" secondItem="3Xu-Q4-fSA" secondAttribute="bottom" constant="30" id="GvS-yA-Bc6"/>
+                            <constraint firstItem="UNZ-97-ocM" firstAttribute="trailing" secondItem="uSY-Aw-Df9" secondAttribute="trailing" constant="20" id="HbK-Qf-23Y"/>
+                            <constraint firstItem="uSY-Aw-Df9" firstAttribute="leading" secondItem="UNZ-97-ocM" secondAttribute="leading" constant="51" id="Lx8-6S-2zn"/>
                             <constraint firstItem="3Xu-Q4-fSA" firstAttribute="top" secondItem="UNZ-97-ocM" secondAttribute="top" constant="56" id="fBa-cq-8UV"/>
                             <constraint firstItem="3Xu-Q4-fSA" firstAttribute="leading" secondItem="UNZ-97-ocM" secondAttribute="leading" constant="51" id="rbo-Ck-jYH"/>
                         </constraints>
@@ -124,7 +127,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Qyu-7f-NUP">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellWithSection" id="Qyu-7f-NUP">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qyu-7f-NUP" id="pCU-rM-glu">
