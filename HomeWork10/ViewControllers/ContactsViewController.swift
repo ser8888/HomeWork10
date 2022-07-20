@@ -26,7 +26,11 @@ class ContactsViewController: UITableViewController {
 
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let indexPath = tableView.indexPathForSelectedRow {
+            let destination = segue.destination as! ShortInfoViewController
+            destination.person = persons[indexPath.row]
        
         }
     
+}
 }

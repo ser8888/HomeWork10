@@ -34,14 +34,14 @@
                             <outlet property="delegate" destination="5PP-IG-hdv" id="RdJ-lg-CXD"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="BkF-iT-HEy"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" id="BkF-iT-HEy"/>
                     <navigationItem key="navigationItem" title="Person Details" id="BAg-7y-NeA"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dR7-bl-Ht8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-710" y="-387"/>
         </scene>
-        <!--Short Info View Controller-->
+        <!--Contact Details-->
         <scene sceneID="n4d-cc-7GO">
             <objects>
                 <viewController id="OBA-54-1SH" customClass="ShortInfoViewController" customModule="HomeWork10" customModuleProvider="target" sceneMemberID="viewController">
@@ -70,10 +70,10 @@
                             <constraint firstItem="3Xu-Q4-fSA" firstAttribute="leading" secondItem="UNZ-97-ocM" secondAttribute="leading" constant="51" id="rbo-Ck-jYH"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="9Y7-Es-q3W"/>
+                    <navigationItem key="navigationItem" title="Contact Details" id="9Y7-Es-q3W"/>
                     <connections>
                         <outlet property="emailLabel" destination="uSY-Aw-Df9" id="5Nd-IF-Qwc"/>
-                        <outlet property="telLable" destination="q4v-nP-NPm" id="v8v-g8-x2Y"/>
+                        <outlet property="telLabel" destination="3Xu-Q4-fSA" id="lYH-Pp-M7e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Xp-vA-9e4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -103,7 +103,7 @@
                 <tabBarController title="Details" automaticallyAdjustsScrollViewInsets="NO" id="iAw-HR-7Wd" customClass="TabBarViewController" customModule="HomeWork10" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Persons" id="PyQ-rq-JeZ"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L68-69-z2S">
+                    <tabBar key="tabBar" tag="2" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L68-69-z2S">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -138,7 +138,7 @@
                             <outlet property="delegate" destination="2w6-YS-9xU" id="IMH-0F-zcO"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="dyf-8L-FAA"/>
+                    <tabBarItem key="tabBarItem" title="Details" id="dyf-8L-FAA"/>
                     <navigationItem key="navigationItem" title="Root View Controller" id="yaY-Vl-kEa"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GHr-rp-EDf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -9,7 +9,7 @@ import UIKit
 
 class ShortInfoViewController: UIViewController {
     
-    @IBOutlet var telLable: UILabel!
+    @IBOutlet var telLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
     
     var person: Person!
@@ -18,7 +18,7 @@ class ShortInfoViewController: UIViewController {
         super.viewDidLoad()
 
         title = person.fullName
-        telLable.text = "Phone: \(person.telNumber)"
+        telLabel.text = "Phone: \(person.telNumber)"
         emailLabel.text = "Email: \(person.email)"
        
     }
